@@ -3,7 +3,7 @@ using namespace std;
 int main() {
 	int row;
 	int n = 1;
-	cout << "enter row number : ";
+	cout << "enter row numb: ";
 	cin >> row;
 	// **pointer to pointer  //Allocating dynamic memory(fo rpointer  array of row) to pointer
 	int** mat = new int*[row];
